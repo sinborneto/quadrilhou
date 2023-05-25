@@ -14,6 +14,7 @@ body {
 .cabecalho {
     background: url(assets/backgroundTop.jpg);
     background-size: cover;
+    height: 65px;
 }
 
 header {
@@ -75,12 +76,13 @@ h1:hover {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 25px !important;
+    margin-top: 8px !important;
 }
 
 h3:hover {
     transition: 500ms linear;
-    font-size: 30px;
+    font-size: 30px !important;
 }
 
 .imagem-escondida {
@@ -121,4 +123,16 @@ h3:hover {
 
 .btn {
     width: 80px;
+}
+
+.audio-content {
+    text-align: end;
+    width: 20%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.audio {
+    width: 250px;
 }
