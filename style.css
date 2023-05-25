@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(assets/background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    background: url(assets/backgroundTop.jpg);
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    background: #121212;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.yes-or-no {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yes-or-no .yes {
+    font-weight: bold;
+    margin-right: 5px;
+    background: rgb(132, 207, 132);
+    color: white;
+    font-size: 1rem;
+    border: 1px solid rgb(156, 156, 206);
+    border-radius: 8px;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: url(assets/yes.png), auto !important;
+}
+
+.yes-or-no .no {
+    margin-left: 5px;
+    font-weight: bold;
+    background: rgb(216, 106, 106);
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(156, 156, 206);
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: url(assets/no.png), auto !important;
+}
+
+h1 {
+    color: black;
+    background: url(assets/backgroundTxt.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+h1:hover {
+    transition: 500ms linear;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h3:hover {
+    transition: 500ms linear;
+    font-size: 30px;
+}
+
+.imagem-escondida {
+    height: 200px;
+    width: 90px;
+    border-radius: 30px;
+    display:none;
+    margin-bottom: 20px;
+}
+
+.image-modal {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.modal-content {
+    background: azure;
+}
+
+.modal-body {
+    color: green;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.modal-header {
+    align-self: center;
+    display: inline !important;
+    text-align: center;
+}
+
+.modal-title {
+    align-self: center;
+    padding-left: 15px;
+}
+
+.btn {
+    width: 80px;
+}
