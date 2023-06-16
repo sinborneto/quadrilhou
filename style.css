@@ -1,7 +1,7 @@
-body {
+.body-content {
     margin: 0;
     padding: 0;
-    background: url(assets/background.jpg);
+    background: url(assets/background2.png);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -11,10 +11,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecalho {
-    background: url(assets/backgroundTop.jpg);
-    background-size: cover;
-    height: 65px;
+.image-logo {
+    position: absolute;
+    top: -6px;
 }
 
 header {
@@ -25,7 +24,6 @@ header {
     text-align: center;
     background: #121212;
     color: white;
-    width: 100%;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -68,21 +66,7 @@ h1 {
     background: url(assets/backgroundTxt.png);
     background-size: cover;
     border-radius: 10px;
-}
-
-h1:hover {
-    transition: 500ms linear;
-    font-size: 50px;
-}
-
-h3 {
-    font-size: 25px !important;
-    margin-top: 8px !important;
-}
-
-h3:hover {
-    transition: 500ms linear;
-    font-size: 30px !important;
+    margin-top: 180px !important;
 }
 
 .imagem-escondida {
@@ -93,6 +77,10 @@ h3:hover {
     margin-bottom: 20px;
 }
 
+.image-invite {
+    width: 800px;
+}
+
 .image-modal {
     height: 70px;
     width: 70px;
@@ -100,6 +88,10 @@ h3:hover {
 }
 .modal-content {
     background: azure;
+}
+
+.modal-content2, .modal-body2, .modal-footer2 {
+    width: 900px !important;
 }
 
 .modal-body {
@@ -116,9 +108,24 @@ h3:hover {
     text-align: center;
 }
 
+.modal.show .modal-dialog {
+    place-content: center;
+}
+
+.modal-content2 {
+    background: transparent !important;
+    border: none  !important;
+}
+
+.modal-footer2 {
+    border: none !important;
+    place-content: center !important;
+}
+
 .modal-title {
     align-self: center;
     padding-left: 15px;
+    margin-top: 0px;
 }
 
 .btn {
