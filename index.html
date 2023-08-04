@@ -13,18 +13,15 @@
     </style>
     <title>Vamos ?</title>
 </head>
-<header class="cabecalho">
-    <div class="d-flex align-items-center">
-        <h3 class="w-100">Hoje é dia de maldade!!! </h3>
-      </div>
-    </header>
-    <div class="audio-content">
-      <audio class="audio" controls="controls" autoplay="autoplay" preload="preload" loop="loop" src="assets/audio.mp3" preload="auto"></audio>
-    </div>
+<div class="audio-content">
+  <audio class="audio" controls="controls" autoplay="autoplay" preload="preload" loop="loop" src="assets/ArraiaMusic.mp3" preload="auto"></audio>
+</div>
 <body>
-    <h1>Vamos sextar as 17:00?</h1>
+  <div class="body-content">
+    <img class="image-logo" src="assets/ATBNewLogo.png">
+    <h1>Bora de Arraiá?</h1>
     <div class="yes-or-no">
-        <button class="yes" onclick="yes()"  target="_blank" rel="noopener noreferrer">Sim 🙂</button>
+        <button class="yes" rel="noopener noreferrer" data-bs-toggle="modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">Sim 🙂</button>
         <button type="button" class="btn btn-primary no" data-bs-toggle="modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Não 😔</button>
     </div>
 
@@ -50,6 +47,23 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal Yes -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-content2">
+          <div class="modal-body modal-body2">
+            <img class='image-invite' src="assets/Convite_Arraia_Autobem.png">
+          </div>
+          <div class="modal-footer modal-footer2">
+            <button onclick="yes()" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendi</button>
+            <button onclick="yes()" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-primary" data-bs-dismiss="modal">Beleza</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body>

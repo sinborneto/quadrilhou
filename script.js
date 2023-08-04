@@ -7,25 +7,25 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         const positionX = Math.floor(Math.random() * 250)*parOuImparX
         const positionY = Math.floor(Math.random() * 250)*parOuImparY
         btn.style.transform = `translate(${positionX}px,${positionY}px)`;
-        btn.style.transition = "all 2s ease";
+        btn.style.transition = "all 1s ease";
     });
 
     btn.addEventListener("touchend", function () {
         const parOuImparX = Math.floor(Math.random() * 2) === 1 ? -1 : 1
         const parOuImparY = Math.floor(Math.random() * 2) === 1 ? -1 : 1
         const positionX = Math.floor(Math.random() * 250)*parOuImparX
-        const positionY = Math.floor(Math.random() * 250)*parOuImparY
+        const positionY = Math.floor(Math.random() * 150)*parOuImparY
         btn.style.transform = `translate(${positionX}px,${positionY}px)`;
-        btn.style.transition = "all 2s ease";
+        btn.style.transition = "all 1s ease";
     });
 } else {
     btn.addEventListener("mouseover", function () {
         const parOuImparX = Math.floor(Math.random() * 2) === 1 ? -1 : 1
         const parOuImparY = Math.floor(Math.random() * 2) === 1 ? -1 : 1
         const positionX = Math.floor(Math.random() * 250)*parOuImparX
-        const positionY = Math.floor(Math.random() * 250)*parOuImparY
+        const positionY = Math.floor(Math.random() * 150)*parOuImparY
         btn.style.transform = `translate(${positionX}px,${positionY}px)`;
-        btn.style.transition = "all 2s ease";
+        btn.style.transition = "all 1s ease";
     });
 }
 
@@ -34,5 +34,5 @@ function not() {
 }  
 
 function yes() {
-    window.open('https://www.youtube.com/watch?v=X6Sq9Sbsczs&ab_channel=BiudoPiseiro', '_blank');
+    window.open('https://www.youtube.com/watch?v=vcS7MXjupgk&ab_channel=AnaCastela', '_blank');
 }
